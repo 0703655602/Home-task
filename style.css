@@ -1,0 +1,52 @@
+.wrapper{
+	width: 980px;
+	margin: auto;
+}
+.header{
+	height: 50px;
+	text-align: center;
+}
+.logo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+.logo_img{
+	width: 100%;
+	height: auto;
+}
+.block{
+	margin: 8px;
+	margin-top: 50px;
+	float: left;
+	width: 48%;
+	text-align: center;
+	margin-bottom: 50px;	
+}
+.border_right{
+	border-right: 2px solid gray;
+	margin-bottom: 10px;
+}
+.button{
+	margin-bottom: 10px;
+	border-radius: 10%;
+	background: lightblue;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Calibri', san-serif;
+}
+
+.clearfix:after, .clearfix:before{
+  content: '';
+  display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.border_bottom{
+	width: 960px;
+	border-bottom: 2px solid gray;
+	height: 540px;
+}
